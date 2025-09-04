@@ -1,10 +1,10 @@
 ![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
 
-# n8n-nodes-google-search
+# n8n-nodes-google-search-api
 
 ## Giới thiệu
 
-**n8n-nodes-google-search** là node dành cho n8n giúp bạn khai thác tối đa sức mạnh của Google Search ngay trong quy trình tự động hóa của mình. Node này cung cấp các tính năng nổi bật:
+**n8n-nodes-google-search-api** là node dành cho n8n giúp bạn khai thác tối đa sức mạnh của Google Search ngay trong quy trình tự động hóa của mình. Node này cung cấp các tính năng nổi bật:
 
 - **Tìm kiếm hình ảnh** (bao gồm hỗ trợ Google Lens)
 - **Tìm kiếm video** trên Google
