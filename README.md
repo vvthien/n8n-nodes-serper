@@ -16,6 +16,8 @@ Node này giúp cộng đồng dễ dàng tích hợp, tự động hóa việc 
 
 Node được phát triển bởi [CloudFly](https://cloudfly.vn) và [Thiên Võ](https://www.facebook.com/groups/6540893992684260/user/100008269037378), với mục tiêu mang lại công cụ mạnh mẽ, dễ sử dụng cho cộng đồng n8n.
 
+![CloudFly Logo](https://cloudfly.vn/_next/image?url=%2Fimage%2Flogo%2Flogo.webp&w=256&q=75)
+
 ## Tính năng chính
 
 - Truy vấn kết quả tìm kiếm Google với nhiều loại dữ liệu: hình ảnh, video, tin tức, liên kết website,...
