@@ -16,7 +16,8 @@ export class Serper implements INodeType {
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{ $parameter["resource"] + " - " + $parameter["operation"] }}',
-		description: 'Integrate with Google Search API (Serper.dev API) for search functionalities',
+		description:
+			'Integrate with Google Search API (Serper.dev API) for search functionalities. Powered by CloudFly',
 		defaults: { name: 'Serper' },
 		inputs: [NodeConnectionType.Main],
 		outputs: [NodeConnectionType.Main],
