@@ -1,9 +1,12 @@
 {
-  "name": "n8n-nodes-serper",
+  "name": "n8n-nodes-google-search",
   "version": "0.1.0",
   "description": "The World's Fastest & Cheapest Google Search API",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n-community-node-package",
+    "cloudfly-n8n-nodes",
+    "n8n-nodes-serper",
+    "n8n-nodes-google-search"
   ],
   "license": "MIT",
   "homepage": "",

@@ -1,47 +1,44 @@
 ![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
 
-# n8n-nodes-starter
+# n8n-nodes-google-search
 
-This repo contains example nodes to help you get started building your own custom integrations for [n8n](https://n8n.io). It includes the node linter and other dependencies.
+## Giới thiệu
 
-To make your custom node available to the community, you must create it as an npm package, and [submit it to the npm registry](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry).
+**n8n-nodes-google-search** là node dành cho n8n giúp bạn khai thác tối đa sức mạnh của Google Search ngay trong quy trình tự động hóa của mình. Node này cung cấp các tính năng nổi bật:
 
-If you would like your node to be available on n8n cloud you can also [submit your node for verification](https://docs.n8n.io/integrations/creating-nodes/deploy/submit-community-nodes/).
+- **Tìm kiếm hình ảnh** (bao gồm hỗ trợ Google Lens)
+- **Tìm kiếm video** trên Google
+- **Nghiên cứu và theo dõi từ khoá** phục vụ SEO, marketing, phân tích xu hướng
+- **Tìm kiếm tin tức mới nhất** từ Google News
+- Và nhiều tính năng mở rộng khác...
 
-## Prerequisites
+Node này giúp cộng đồng dễ dàng tích hợp, tự động hóa việc thu thập dữ liệu từ Google Search, phục vụ các nhu cầu nghiên cứu, phân tích, giám sát thông tin, hoặc phát triển ứng dụng.
 
-You need the following installed on your development machine:
+Node được phát triển bởi [CloudFly](https://cloudfly.vn) và [Thiên Võ](https://www.facebook.com/groups/6540893992684260/user/100008269037378), với mục tiêu mang lại công cụ mạnh mẽ, dễ sử dụng cho cộng đồng n8n.
 
-* [git](https://git-scm.com/downloads)
-* Node.js and npm. Minimum version Node 20. You can find instructions on how to install both using nvm (Node Version Manager) for Linux, Mac, and WSL [here](https://github.com/nvm-sh/nvm). For Windows users, refer to Microsoft's guide to [Install NodeJS on Windows](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows).
-* Install n8n with:
-  ```
-  npm install n8n -g
-  ```
-* Recommended: follow n8n's guide to [set up your development environment](https://docs.n8n.io/integrations/creating-nodes/build/node-development-environment/).
+## Tính năng chính
 
-## Using this starter
+- Truy vấn kết quả tìm kiếm Google với nhiều loại dữ liệu: hình ảnh, video, tin tức, liên kết website,...
+- Hỗ trợ lọc, phân loại, và xử lý kết quả trả về.
+- Dễ dàng tích hợp vào workflow n8n, không cần viết code phức tạp.
 
-These are the basic steps for working with the starter. For detailed guidance on creating and publishing nodes, refer to the [documentation](https://docs.n8n.io/integrations/creating-nodes/).
+## Hướng dẫn sử dụng
 
-1. [Generate a new repository](https://github.com/n8n-io/n8n-nodes-starter/generate) from this template repository.
-2. Clone your new repo:
-   ```
-   git clone https://github.com/<your organization>/<your-repo-name>.git
-   ```
-3. Run `npm i` to install dependencies.
-4. Open the project in your editor.
-5. Browse the examples in `/nodes` and `/credentials`. Modify the examples, or replace them with your own nodes.
-6. Update the `package.json` to match your details.
-7. Run `npm run lint` to check for errors or `npm run lintfix` to automatically fix errors when possible.
-8. Test your node locally. Refer to [Run your node locally](https://docs.n8n.io/integrations/creating-nodes/test/run-node-locally/) for guidance.
-9. Replace this README with documentation for your node. Use the [README_TEMPLATE](README_TEMPLATE.md) to get started.
-10. Update the LICENSE file to use your details.
-11. [Publish](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry) your package to npm.
+1. Cài đặt node vào n8n của bạn.
+2. Thêm node vào workflow và cấu hình truy vấn theo nhu cầu.
+3. Kết nối với các node khác để xử lý, lưu trữ, hoặc phân tích dữ liệu tìm kiếm.
 
-## More information
+# Cách lấy API Key
 
-Refer to our [documentation on creating nodes](https://docs.n8n.io/integrations/creating-nodes/) for detailed information on building your own nodes.
+1. Truy cập [Serper API](https://serper.dev/) và đăng ký tài khoản.
+2. Sau khi đăng ký, đăng nhập vào tài khoản và truy cập trang dashboard.
+3. Tại dashboard, bạn sẽ thấy mục "API Keys" hoặc "API Credentials".
+4. Tạo một API Key mới nếu chưa có, hoặc sao chép API Key hiện có.
+5. Sử dụng API Key này trong node n8n để thực hiện các truy vấn tìm kiếm.
+
+## Đóng góp & Hỗ trợ
+
+Mình luôn khuyến khích cộng đồng đóng góp, phản hồi, và đề xuất thêm tính năng mới để node ngày càng hoàn thiện hơn.
 
 ## License
 

@@ -655,22 +655,22 @@ export class Serper implements INodeType {
 			try {
 				const resource = this.getNodeParameter('resource', i) as string;
 				const operation = this.getNodeParameter('operation', i) as string;
-				const query = this.getNodeParameter('query', i) as string;
-
 				let endpoint = resource; // e.g., 'search', 'images', etc.
-				const body: IDataObject = { q: query };
-
+				const body: IDataObject = {};
 				// Add common params
 				body.gl = this.getNodeParameter('gl', i) as string;
 				body.hl = this.getNodeParameter('hl', i) as string;
-				body.autocorrect = this.getNodeParameter('autocorrect', i) as boolean;
-				body.page = this.getNodeParameter('page', i) as number;
-				body.num = this.getNodeParameter('num', i) as number;
-
 				// Handle specific operations
 				if (resource === 'images' && operation === 'imageSearchLens') {
 					body.url = this.getNodeParameter('url', i) as string;
 					endpoint = 'lens'; // Adjust if Serper has specific endpoint for Lens
+				} else {
+					const query = this.getNodeParameter('query', i) as string;
+
+					body.q = query;
+					body.autocorrect = this.getNodeParameter('autocorrect', i) as boolean;
+					body.page = this.getNodeParameter('page', i) as number;
+					body.num = this.getNodeParameter('num', i) as number;
 				}
 
 				const response = await this.helpers.httpRequestWithAuthentication.call(this, 'serperApi', {
