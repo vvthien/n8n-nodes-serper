@@ -14,7 +14,7 @@
 
 Node này giúp cộng đồng dễ dàng tích hợp, tự động hóa việc thu thập dữ liệu từ Google Search, phục vụ các nhu cầu nghiên cứu, phân tích, giám sát thông tin, hoặc phát triển ứng dụng.
 
-Node được phát triển bởi [CloudFly](https://cloudfly.vn) và [Thiên Võ](https://www.facebook.com/groups/6540893992684260/user/100008269037378), với mục tiêu mang lại công cụ mạnh mẽ, dễ sử dụng cho cộng đồng n8n.
+Node được phát triển bởi [CloudFly](https://cloudfly.vn), với mục tiêu mang lại công cụ mạnh mẽ, dễ sử dụng cho cộng đồng n8n.
 
 ![CloudFly Logo](https://cloudfly.vn/_next/image?url=%2Fimage%2Flogo%2Flogo.webp&w=256&q=75)
 
